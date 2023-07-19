@@ -8,7 +8,8 @@ body {
 
 /* HERO IMAGE */
 
-h1, h2, figcaption {
+figcaption {
+    font-size: 0.8rem;
     text-align: center;
 }
 
@@ -21,6 +22,7 @@ h1, h2, figcaption {
 
 h1, h2, h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }
 
 /* BIO AND ACHIEVEMENTS */
@@ -41,6 +43,10 @@ p, h3 {
 
 h3 {
     font-size: 1.2rem;
+}
+
+span {
+    font-weight: 700;
 }
 
 .movies {
@@ -76,9 +82,3 @@ h3 {
 
 }
 
-#details{
-    font-size: 12px;
-    font-style: italic;
-    display:inline-block;
-    margin: 1px;
-}
